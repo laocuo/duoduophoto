@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">朵朵相册</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">选择相册</string>
+    <string name="reset_directory">设置相册</string>
+    <string name="action_clear">清除缓存</string>
+    <string name="clear_cache_complete">缓存已经被清除!</string>
+
+</resources>

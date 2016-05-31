@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin">
+
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hroizontal_list_empty"
+            android:text="Empty"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+        <ProgressBar 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hroizontal_list_progressbar"
+            android:layout_gravity="center"/>
+        <com.laocuo.duoduophoto.outsrcview.CustomViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/hroizontal_list">
+        
+        </com.laocuo.duoduophoto.outsrcview.CustomViewPager>
+</FrameLayout>
